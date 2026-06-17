@@ -1,7 +1,7 @@
 ## Table of contents
 
 1. [Key value pipe without changing the order of the keys  ](#key-value-pipe-with-keepOriginalOrder)
-2. [*ngIf and display:none difference](#*ngIf-and-display:none-difference)
+2. [*ngIf and display:none difference](#ngIf-and-display:none-difference)
 
 
 
@@ -15,7 +15,7 @@ eg:
   {{ item.key }} : {{ item.value }}
 </div>
 ```
-## *ngIf-and-display:none-difference
+## ngIf-and-display:none-difference
 | Feature | `*ngIf` | `display: none` |
 |----------|----------|----------|
 | DOM Element | Removed from DOM | Remains in DOM |
