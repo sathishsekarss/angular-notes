@@ -3,6 +3,7 @@
 1. [Key value pipe without changing the order of the keys](#key-value-pipe-with-keepOriginalOrder)
 2. [ngIf and display none difference](#ngIf-and-display-none-difference)
 3. [Difference between forkJoin and combineLatest](#difference-between-forkJoin-and-combine-latest)
+3. [Overriding CSS of a prebuilt component](#overriding-css-of-a-prebuilt-component)
 
 ## key-value-pipe-with-keepOriginalOrder
 
@@ -50,3 +51,6 @@ Quick Memory Trick to remember:
 |----------|----------|
 | `forkJoin` | "Wait for everyone to finish, then give me the result once." |
 | `combineLatest` | "Keep me updated whenever anything changes." |
+
+## overriding-css-of-a-prebuilt-component
+Overriding the CSS of prebuilt component can be achieved by moving the css code to the common styles.scss file.  Or we can use '::ng-deep' to override a components CSS  ( this method is depricated in latest versions of angular ).
