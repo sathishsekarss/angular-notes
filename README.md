@@ -25,4 +25,4 @@ In angular there are three types of directives
 ## component-directives-in-angular
 In Angular, a Component is fundamentally a directive with a template. It is the most common type of directive and serves as the primary building block for creating user interfaces. Under the hood, Angular's @Component decorator extends the @Directive decorator to add template-oriented features.In Angular, a Component is fundamentally a directive with a template. It is the most common type of directive and serves as the primary building block for creating user interfaces. Under the hood, Angular's @Component decorator extends the @Directive decorator to add template-oriented features.
 
-[Angular component directive example]("./assets/AngularComponentDirective.gif");
+![Angular component directive example](./assets/AngularComponentDirective.gif)
