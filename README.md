@@ -5,6 +5,7 @@ This Repository contains information related Angular concepts.
 1. [Directives in angular](#directives-in-angular)
     1. [Component directives in angular](#component-directives-in-angular)
 1. [Why we need directives in angular](#why-we-need-directives-in-angular)
+1. [Life cycle in angular](#life-cycle-in-angular)
 
 ## template-interpolation-in-angular
 Template interpolation in angular means you can refer to the variables declared in .ts (component.ts) file.
@@ -37,3 +38,26 @@ Repeat elements
 Change styles dynamically
 Listen to events
 Create reusable behaviors
+
+## life-cycle-in-angular
+Angular components use the below flow in thier component lifecycle 
+
+Constructor
+      ↓
+ngOnChanges()
+      ↓
+ngOnInit()
+      ↓
+ngDoCheck()
+      ↓
+ngAfterContentInit()
+      ↓
+ngAfterContentChecked()
+      ↓
+ngAfterViewInit()
+      ↓
+ngAfterViewChecked()
+      ↓
+(Repeated during every change detection)
+      ↓
+ngOnDestroy()
