@@ -6,6 +6,7 @@ This Repository contains information related Angular concepts.
     1. [Component directives in angular](#component-directives-in-angular)
 1. [Why we need directives in angular](#why-we-need-directives-in-angular)
 1. [Life cycle in angular](#life-cycle-in-angular)
+1. [Interceptors in angular](#interceptors-in-angular)
 
 ## template-interpolation-in-angular
 Template interpolation in angular means you can refer to the variables declared in .ts (component.ts) file.
@@ -61,3 +62,26 @@ ngAfterViewChecked()
 (Repeated during every change detection)
       ↓
 ngOnDestroy()
+
+## interceptors-in-angular
+In Angular, Interceptors are services that intercept HTTP requests and responses made using HttpClient. They allow you to modify requests before they are sent to the server and process responses before they reach your components.
+
+```Component
+    |
+    v
+HttpClient
+    |
+    v
+Interceptor(s)
+    |
+    v
+Backend Server
+    |
+    ^
+Response
+    |
+Interceptor(s)
+    |
+    ^
+Component
+```
